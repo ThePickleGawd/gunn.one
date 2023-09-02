@@ -1,5 +1,4 @@
 import Navbar from "@/components/Navbar";
-import "./globals.css";
 import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
 
@@ -17,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={nunito.className + " bg-neutral-900 text-white"}>
+      <body className={nunito.className + " bg-neutral-200 text-neutral-700"}>
         <Navbar />
         {children}
       </body>
